@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 ######################### input parameters#################
 #Define Path of images
-img_L = cv2.imread("C://aa//iv_labs//stereo_reconstruction//dataset//umb0.png")  #left
-img_R = cv2.imread("C://aa//iv_labs//stereo_reconstruction//dataset//umb1.png")  #right
+img_L = cv2.imread("dataset//umb0.png")  #left
+img_R = cv2.imread("dataset//umb1.png")  #right
 
 # calibration mat for cameras left and right
 ################# enter file name for saving ###################
